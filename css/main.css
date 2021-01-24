@@ -1,0 +1,298 @@
+/***** NewLabclock_Web CSS *****/
+html, body, div, span, applet, object, iframe,p
+h1{
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+ /* line-height: 1.6;*/ 
+ font-family: 'Heebo', sans-serif;
+ 
+}
+
+h1{
+  color: #00629c;
+  font-size: 28px;
+  /* margin-bottom: 10px; */
+  text-align: center;
+}
+
+p {
+  margin-block-start: 0em;
+  font-size: 25px;
+  line-height: 1.5;
+  text-align: center;
+  margin-block-end: 0px;
+
+}
+#exampleText{
+  color: #00629c;
+  text-align: center;
+  padding-left: 100px;
+}
+
+ #demo_clock {
+  width:450px;
+  height:450px;
+  margin-right:auto;
+  margin-left:auto;
+}
+
+ #demo_marks {
+  width:450px; 
+  height:450px;
+  position:absolute;
+  background: url("../img/clock450.png") no-repeat 0 0;
+}
+#startHebrow{
+
+ font-size: 25px;
+  color: #fff;
+  font-weight: bold;
+  padding: 7px 10px 7px 10px;
+  border: 1px solid #00629c;
+  background: #00629c;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -o-border-radius: 10px;
+  border-radius: 10px;
+   width: 200px;
+   margin-top: 300px;
+   
+}
+#startEnglish{
+
+  font-size: 25px;
+   color: #fff;
+   font-weight: bold;
+   padding: 7px 10px 7px 10px;
+   border: 1px solid #00629c;
+   background: #00629c;
+   -moz-border-radius: 10px;
+   -webkit-border-radius: 10px;
+   -o-border-radius: 10px;
+   border-radius: 10px;
+    width: 200px;
+    margin-top: 300px;
+ }
+#demosound {
+  font-size: 25px;
+  color: #fff;
+  font-weight: bold;
+  padding: 7px 10px 7px 10px;
+  border: 1px solid #00629c;
+  background: #00629c;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -o-border-radius: 10px;
+  border-radius: 10px;
+   width: 200px;
+  /*height: 60px; */
+}
+#startEnglish:hover {
+  background: #fff;
+  color: #00629c;
+}
+#startHebrow:hover {
+  background: #fff;
+  color: #00629c;
+}
+#demosound:hover {
+  background: #fff;
+  color: #00629c;
+}
+
+.footer1 {
+  position: fixed; 
+  text-align: center;
+  /* height: 100px; */
+  font-family: 'Rubik', sans-serif; 
+  margin-bottom: 100px;
+  
+  bottom: 0;
+  width: 100%;
+  background-color:transparent;
+  color: white;
+
+  height: 50px;
+  }
+
+a {
+  text-decoration: none;
+  display: inline-block;
+  padding: 8px 16px;
+}
+
+.next {
+  font-size: 25px;
+  color: #fff;
+  font-weight: bold;
+  /* padding: 7px 10px 7px 10px; */
+  border: 1px solid #00629c;
+  background: #00629c;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -o-border-radius: 10px;
+  border-radius: 10px;
+   position: relative;
+
+  /* height: 50px; */
+}
+
+.next:hover {
+  background: #fff;
+  color: #00629c;
+}
+
+.previous {
+  font-size: 25px;
+  color: #fff;
+  font-weight: bold;
+  padding: 7px 10px 7px 10px;
+  border: 10px solid #00629c;
+  background: #00629c;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -o-border-radius: 10px;
+  border-radius: 10px;
+  width: 100px;
+  height: 50px;
+}
+
+.previous:hover {
+  background: #fff;
+  color: #00629c;
+}
+#a_next{
+ 
+  width: 200px;
+  height: 40px;
+  
+}
+#dot, #demo_dot {
+  width:100%; 
+  height:100%;
+  position:absolute;
+  z-index:1;
+  top:0;
+  left:0;
+}
+#demo_dot {
+  animation-name: spin;
+  animation-iteration-count:  infinite;
+  animation-timing-function: linear;
+  animation-duration: 2.560s;
+  animation-delay: 0.7s;
+} 
+
+button {  /* doing what?*/
+  font-family: 'Heebo', sans-serif;
+  font-family: 'Rubik', sans-serif;
+  font-size: 50px;
+}
+.BGUlogoDicClass{
+  border-style: groove;
+  text-align: right;
+  width: 100%;
+  height: 100px;
+  margin-bottom: 30px;
+}
+
+footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: transparent;
+ 
+  color: white;
+  text-align: center;
+}
+
+#BGUlogo{
+  width:350px; 
+  height:68px;
+ 
+ position: relative;
+  left: 0;
+ border-style: groove;
+ 
+  
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@-webkit-keyframes spin {
+  from {
+    -webkit-transform: rotate(0deg) translate3d(0,0,0);
+  }
+  to {
+    -webkit-transform: rotate(360deg) translate3d(0,0,0);
+  }
+}
+
+@-moz-keyframes spin {
+  from {
+    -moz-transform: rotate(0deg);
+  }
+  to {
+    -moz-transform: rotate(360deg);
+  }
+}
+
+.slidecontainer {
+
+  width: 100%;
+  font-size: 40px;
+  color:  #00629c;
+}
+
+.slider {
+  -webkit-appearance: none;
+  width:50%;
+  height: 25px;
+  background: #d3d3d3;
+  outline: none;
+  opacity: 0.7;
+  -webkit-transition: .2s;
+  transition: opacity .2s;
+  margin-top: 170px;
+  
+  
+}
+
+.slider:hover {
+  opacity: 1;
+}
+
+.slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 25px;
+  height: 25px;
+  background: #00629c;
+  cursor: pointer;
+}
+
+.slider::-moz-range-thumb {
+  width: 25px;
+  height: 25px;
+  background: #00629c;
+  cursor: pointer;
+}
+.results{
+ 
+  font-size: 40px;
+  color:  #00629c;
+
+}
